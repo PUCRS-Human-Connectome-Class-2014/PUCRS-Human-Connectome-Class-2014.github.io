@@ -4,6 +4,7 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/octicons.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
@@ -19,13 +20,17 @@
 
         <header>
           <center>
-          <h1>The Human Connectome: Functional Neuroimaging and Mapping the Connectivity of the Human Brain</h1>
+          <h1>Mapping the Connectivity</h1>
+          <h1>of the Human Brain</h1>
           <h1>PUCRS 2014</h1></center>
           <!--<h2>Homepage</h2>-->
         </header>
 
         <section id="downloads" class="clearfix">
-          <a href="https://github.com/PUCRS-Human-Connectome-Class-2014" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        <a href="index.html" id="syllabus" class="button" ><span class="mega-octicon octicon-checklist"></span>  Syllabus</a>  
+        <a href="labs.html" id="labs" class="button"><span class="mega-octicon octicon-microscope"></span>  Labs</a> 
+        <a href="project.html" id="project" class="button"><span class="mega-octicon octicon-circuit-board"></span>  Project</a> 
+        <a href="https://github.com/PUCRS-Human-Connectome-Class-2014" id="github" class="button"><span class="mega-octicon octicon-mark-github"></span>  Github</a>  
         </section>
 
         <hr>
@@ -33,7 +38,7 @@
         <section id="main_content">
             <h1>Overview</h1>
 
-<p>This is the homepage for the course <strong>The Human Connectome: Functional Neuroimaging and Mapping the Connectivity of the Human Brain</strong> which will occur July 28 - 31 at the Pontifícia Universidade Católica do Rio Grande do Sul, in Porto Alegre, Brazil. Lectures for the course are scheduled for 1700 to 2000 each evening and will be held in room <code>302 Bloco B</code> of the School of Engineering building (<code>building number 30</code>). Electrical engineering students at PUCRS who are enrolled in <em>0407-03: Instrumentação Biomédica e Imagens Médicas</em> will receive 1 credit hour for completing this course. This course will be taught exclusively in English.</p>
+<p>This is the homepage for the course <strong>Mapping the Connectivity of the Human Brain</strong> which will occur July 28 - 31 at the Pontifícia Universidade Católica do Rio Grande do Sul, in Porto Alegre, Brazil. Lectures for the course are scheduled for 17:00 to 20:00 each evening and will be held in room <code>302 Bloco B</code> of the School of Engineering building (<code>building number 30</code>). Electrical engineering students at PUCRS who are enrolled in <em>0407-03: Instrumentação Biomédica e Imagens Médicas</em> will receive 1 credit hour for completing this course. This course will be taught exclusively in English.</p>
 
 <h2>Instructors:</h2>
 
@@ -45,9 +50,9 @@
 <h2>Teaching Assistants</h2>
 
 <ul>
-<li>Caroline Froehlich</li>
-<li>Nathassia Aurich</li>
-<li>Guilherme Peixoto</li>
+<li><a href="mailto:CAROL.FROHLICH@GMAIL.COM">Caroline Froehlich</a>, Graduate program in Computer Science, PUCRS</li>
+<li><a href="mailto:nathassia.aurich@acad.pucrs.br">Nathassia Aurich</a>, Graduate program in Electrical Engineering, PUCRS</li>
+<li><a href="mailto:guilherme.peixoto@acad.pucrs.br">Guilherme Peixoto</a>, Undergraduate program in Physics, PUCRS</li>
 </ul>
 
 <h1>Background</h1>
@@ -58,40 +63,67 @@
 
 <h1>Syllabus</h1>
 
-<h2>Monday, July 28</h2>
+<h2>Monday, July 28, 17:00 to 20:00</h2>
 
 <ul>
-<li>Lectures: Basics of MRI physics, functional MRI, and diffusion MRI</li>
-<li>Lab: Working with neuroimaging data using <a href="https://www.python.org/">Python</a> and <a href="http://nipy.org/">Nipy</a>, and Open Science resources for learning more about the connectome</li>
-<li>Reading assignment:
+<li><strong>Lecture</strong>: 
 
 <ul>
-<li><a href="papers/ImagingHumanConnectomesAtTheMacroscale.pdf">Craddock, R. C., Jbabdi, S., Yan, C., Vogelstein, J. T., Castellanos, F. X., Di Martino, A., Kelly, C., Heberlein, K., Colcombe, S., &amp; Milham, M. P. (2013). <strong>Imaging human connectomes at the macroscale</strong>. <em>Nature Methods</em>, 10(6), 524–539.</a> - A good overview of connectomics from image acquisition through analysis and provides some prospectives on what can be learned from connectomics</li>
-<li><a href="https://www.physast.uga.edu/files/phys4510_zhao/No6%20dynamic%20models%20of%20BOLD%20contrast.PDF">Buxton, R. B. (2012). <strong>Dynamic models of BOLD contrast</strong>. <em>NeuroImage</em>, 62(2), 953–61.</a> - Describes various physiological models of how neuronal activity results in the signal we measure with fMRI</li>
-<li><a href="http://onlinelibrary.wiley.com/store/10.1002/nbm.782/asset/782_ftp.pdf?v=1&amp;t=hy2e3zn9&amp;s=90a7de7b21787d3a675103266ec949a10f3b0b49">Beaulieu, C. (2002). <strong>The basis of anisotropic water diffusion in the nervous system - a technical review</strong>. <em>NMR Biomed</em>, 15(7-8), 435–455.</a> - Detailed information on the relationship between diffusion MRI and neuroanatomy</li>
+<li>Basics of MRI physics, functional MRI, and diffusion MRI. <a href="">slides</a></li>
+</ul></li>
+<li><strong>Lab</strong>: 
+
+<ul>
+<li><a href="labs.html#lab1">Lab #1: Working with neuroimaging data using Python and Nipy</a> </li>
+<li><a href="labs.html#lab2">Lab #2: Open Science resources for connectomes research</a></li>
+</ul></li>
+<li><strong>Reading</strong>:
+
+<ul>
+<li><a href="papers/ImagingHumanConnectomesAtTheMacroscale.pdf">Craddock, R. C., Jbabdi, S., Yan, C., Vogelstein, J. T., Castellanos, F. X., Di Martino, A., Kelly, C., Heberlein, K., Colcombe, S., &amp; Milham, M. P. (2013). <strong>Imaging human connectomes at the macroscale</strong>. <em>Nature Methods</em>, 10(6), 524–539.</a> - A good overview of connectomics from image acquisition through analysis and provides some prospectives on what can be learned from connectomics.</li>
+<li><a href="https://www.physast.uga.edu/files/phys4510_zhao/No6%20dynamic%20models%20of%20BOLD%20contrast.PDF">Buxton, R. B. (2012). <strong>Dynamic models of BOLD contrast</strong>. <em>NeuroImage</em>, 62(2), 953–61.</a> - Describes various physiological models of how neuronal activity results in the signal we measure with fMRI.</li>
+<li><a href="http://onlinelibrary.wiley.com/store/10.1002/nbm.782/asset/782_ftp.pdf?v=1&amp;t=hy2e3zn9&amp;s=90a7de7b21787d3a675103266ec949a10f3b0b49">Beaulieu, C. (2002). <strong>The basis of anisotropic water diffusion in the nervous system - a technical review</strong>. <em>NMR Biomed</em>, 15(7-8), 435–455.</a> - Detailed information on the relationship between diffusion MRI and neuroanatomy<br></li>
 </ul></li>
 </ul>
 
-<h2>Tuesday, July 29</h2>
+<h2>Tuesday, July 29, 17:00 to 20:00</h2>
 
 <ul>
-<li>Lectures: Building connectomes from fMRI data - preprocessing and functional connectivity</li>
-<li>Lab: Preprocessing fMRI data in <a href="http://fcp-indi.github.io/">CPAC</a> and constructing functional connectome graphs</li>
-<li>Reading assignments:
+<li><strong>Lecture</strong>: 
 
 <ul>
-<li><a href="papers/FunctionalConnectivityMotorCortexRestingBrain.pdf">Biswal, B., Yetkin, F. Z., Haughton, V. M., &amp; Hyde, J. S. (1995). <strong>Functional connectivity in the motor cortex of resting human brain using echo-planar MRI</strong>. <em>Magnetic Resonance in Medicine</em>, 34(4), 537–41. </a> - The first report of resting state functional connectivity</li>
+<li>Building connectomes from fMRI data - preprocessing and functional connectivity</li>
+</ul></li>
+<li><strong>Lab</strong>:
+
+<ul>
+<li><a href="labs.html#lab3">Lab #3: Preprocessing fMRI data using CPAC</a></li>
+<li><a href="labs.html#lab4">Lab #4: Mapping functional connectome from fMRI</a></li>
+</ul></li>
+<li><strong>Reading</strong>:
+
+<ul>
+<li><a href="papers/FunctionalConnectivityMotorCortexRestingBrain.pdf">Biswal, B., Yetkin, F. Z., Haughton, V. M., &amp; Hyde, J. S. (1995). <strong>Functional connectivity in the motor cortex of resting human brain using echo-planar MRI</strong>. <em>Magnetic Resonance in Medicine</em>, 34(4), 537–41.</a> - The first report of resting state functional connectivity</li>
 <li><a href="papers/EvaluatingFMRIPreprocessingPipelines.pdf">Strother, S. C. (2006). <strong>Evaluating fMRI Preprocessing Pipelines</strong>. <em>IEEE Engineering in Medicine and Biology Magazine</em>, 25(2), 27–41.</a> - Describes fMRI preprocessing methods and their optimization</li>
 <li><a href="papers/RestingDevelopments.pdf">Margulies, D. S., Böttger, J., Long, X., Lv, Y., Kelly, C., Schäfer, A., … Villringer, A. (2010). <strong>Resting developments: a review of fMRI post-processing methodologies for spontaneous brain activity</strong>. <em>MAGMA</em>, 23(5-6), 289–307.</a> - A nearly comprehensive review of functional connectivity analyses </li>
 <li><a href="papers/CharacterizingVariationInTheFunctionalConnectomePromiseAndPitfalls.pdf">Kelly, C., Biswal, B. B., Craddock, R. C., Castellanos, F. X., &amp; Milham, M. P. (2012). <strong>Characterizing variation in the functional connectome: promise and pitfalls</strong>. <em>Trends in Cognitive Sciences</em>, 16(3), 181–8.</a> - Describes the application of functional connectivity for understanding inter-individual variations in brain function and many of the open issues plaguing funcitonal connectivity analyses</li>
 </ul></li>
 </ul>
 
-<h2>Wednesday, July 30</h2>
+<h2>Wednesday, July 30, 17:00 to 20:00</h2>
 
 <ul>
-<li>Lectures: Building connectomes from dMRI data - preprocessing and tractography</li>
-<li>Lab: Preprocessing dMRI data and mapping structural connections
+<li><strong>Lecture</strong>: 
+
+<ul>
+<li>Building connectomes from dMRI data - preprocessing and tractography</li>
+</ul></li>
+<li><strong>Lab</strong>:
+
+<ul>
+<li><a href="labs.html#lab5">Lab #5: Mapping structural connectomes from dMRI</a></li>
+</ul></li>
+<li><strong>Reading</strong>:
 
 <ul>
 <li><a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3594764/">Soares, J. M., Marques, P., Alves, V., &amp; Sousa, N. (2013). <strong>A hitchhiker’s guide to diffusion tensor imaging</strong>. <em>Frontiers in Neuroscience</em>, 7, 31.</a> - A detailed review of diffusion imaging and its analysis</li>
@@ -100,16 +132,25 @@
 </ul></li>
 </ul>
 
-<h2>Thrusday, July 31</h2>
+<h2>Thrusday, July 31, 17:00 to 20:00</h2>
 
 <ul>
-<li>Lectures: Comparing connectomes - graph theory, statistical learning, classifiers, and correcting for multiple comparisons</li>
-<li>Lab: Calculating graph statistics with the <a href="https://sites.google.com/site/bctnet/">Brain Connectivity Toolbox</a> </li>
-<li>Reading assignments:
+<li><strong>Lecture</strong>: 
 
 <ul>
-<li><a href="http://brainimaging.waisman.wisc.edu/%7Echung/neuro.processing/literature/rubinov.2010.NI.network.pdf">Rubinov, M., &amp; Sporns, O. (2010). <strong>Complex network measures of brain connectivity: uses and interpretations</strong>. <em>NeuroImage</em>, 52(3), 1059–69.</a> - Defines many of the different graph measures that are used in connectomics</li>
-<li><a href="http://miplab.epfl.ch/pub/richiardi1301.pdf">Richiardi, J., Achard, S., Bunke, H., &amp; Van De Ville, D. (2013). Machine Learning with Brain Graphs: Predictive Modeling Approaches for Functional Imaging in Systems Neuroscience. IEEE Signal Processing Magazine, 30(3), 58–70.</a> - Discusses the application of machine learning algorithms to the connectome</li>
+<li>Comparing connectomes - graph theory, statistical learning, classifiers, and correcting for multiple comparisons</li>
+</ul></li>
+<li><strong>Lab</strong>: 
+
+<ul>
+<li><a href="labs.html#lab6">Lab #6: Calculating graph statistics</a></li>
+</ul></li>
+<li><strong>Reading</strong>:
+
+<ul>
+<li><a href="http://brainimaging.waisman.wisc.edu/%7Echung/neuro.processing/literature/rubinov.2010.NI.network.pdf">Rubinov, M., &amp; Sporns, O. (2010). <strong>Complex network measures of brain connectivity: uses and interpretations</strong>. <em>NeuroImage</em>, 52(3), 1059–69.</a> - Defines many of the different graph measures that are used in connectomics.</li>
+<li><a href="http://miplab.epfl.ch/pub/richiardi1301.pdf">Richiardi, J., Achard, S., Bunke, H., &amp; Van De Ville, D. (2013). <strong>Machine Learning with Brain Graphs: Predictive Modeling Approaches for Functional Imaging in Systems Neuroscience</strong>. <em>IEEE Signal Processing Magazine</em>, 30(3), 58–70.</a> - Discusses the application of machine learning algorithms to the connectome.</li>
+<li><a href="http://ac.els-cdn.com/S1053811914001232/1-s2.0-S1053811914001232-main.pdf?_tid=8cacba38-159c-11e4-b1ce-00000aab0f27&amp;acdnat=1406472464_c2dc1062163b925178790341ba463b17">Shehzad, Z., Kelly, C., Reiss, P. T., Craddock, R. C., Emerson, J. W., McMahon, K., … Milham, M. P. (2014). <strong>A multivariate distance-based analytic framework for connectome-wide association studies</strong>. <em>NeuroImage</em>, 93 Pt 1, 74–94.</a> - Multivariate technique for finding associations between interindividual variability and features of the connectome.</li>
 </ul></li>
 </ul>
 
