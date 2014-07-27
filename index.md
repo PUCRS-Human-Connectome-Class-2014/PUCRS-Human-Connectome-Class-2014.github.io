@@ -34,7 +34,7 @@ This course will provide an in-depth review of the neuroimaging and analytical m
 - **Reading**:
     - [Craddock, R. C., Jbabdi, S., Yan, C., Vogelstein, J. T., Castellanos, F. X., Di Martino, A., Kelly, C., Heberlein, K., Colcombe, S., & Milham, M. P. (2013). **Imaging human connectomes at the macroscale**. *Nature Methods*, 10(6), 524–539.](papers/ImagingHumanConnectomesAtTheMacroscale.pdf) - A good overview of connectomics from image acquisition through analysis and provides some prospectives on what can be learned from connectomics.
     - [Buxton, R. B. (2012). **Dynamic models of BOLD contrast**. *NeuroImage*, 62(2), 953–61.] (https://www.physast.uga.edu/files/phys4510_zhao/No6%20dynamic%20models%20of%20BOLD%20contrast.PDF) - Describes various physiological models of how neuronal activity results in the signal we measure with fMRI.
-    - [Beaulieu, C. (2002). **The basis of anisotropic water diffusion in the nervous system - a technical review**. *NMR Biomed*, 15(7-8), 435–455.] (http://onlinelibrary.wiley.com/store/10.1002/nbm.782/asset/782_ftp.pdf?v=1&t=hy2e3zn9&s=90a7de7b21787d3a675103266ec949a10f3b0b49) - Detailed information on the relationship between diffusion MRI and neuroanatomy  
+    - [Beaulieu, C. (2002). **The basis of anisotropic water diffusion in the nervous system - a technical review**. *NMR Biomed*, 15(7-8), 435–455.](papers/BasisOfDiffusion.pdf) - Detailed information on the relationship between diffusion MRI and neuroanatomy  
     
 ##Tuesday, July 29, 17:00 to 20:00
 - **Lecture**: 
