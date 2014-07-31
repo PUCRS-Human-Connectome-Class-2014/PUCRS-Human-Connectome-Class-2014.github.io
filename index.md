@@ -38,7 +38,7 @@ This course will provide an in-depth review of the neuroimaging and analytical m
     
 ##Tuesday, July 29, 17:00 to 20:00
 - **Lecture**: 
-    - Building connectomes from fMRI data - preprocessing and functional connectivity[slides](http://pucrs-human-connectome-class-2014.github.io/fMRI_connectome_slides/index.html)
+    - Building connectomes from fMRI data - preprocessing and functional connectivity [slides](http://pucrs-human-connectome-class-2014.github.io/fMRI_connectome_slides/index.html)
 - **Lab**:
     - [Lab #3: Preprocessing fMRI data using CPAC](labs.html#lab3)
     - [Lab #4: Mapping functional connectome from fMRI](labs.html#lab4)
@@ -50,7 +50,7 @@ This course will provide an in-depth review of the neuroimaging and analytical m
     
 ##Wednesday, July 30, 17:00 to 20:00
 - **Lecture**: 
-    - Building connectomes from dMRI data - preprocessing and tractography[slides](http://pucrs-human-connectome-class-2014.github.io/DTI_connectome_slides/index.html)
+    - Building connectomes from dMRI data - preprocessing and tractography [slides](http://pucrs-human-connectome-class-2014.github.io/DTI_connectome_slides/index.html)
 - **Lab**:
     - [Lab #5: Mapping structural connectomes from dMRI](labs.html#lab5)
 - **Reading**:
