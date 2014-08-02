@@ -60,7 +60,7 @@ This course will provide an in-depth review of the neuroimaging and analytical m
 
 ##Thrusday, July 31, 17:00 to 20:00
 - **Lecture**: 
-    - Comparing connectomes - graph theory, statistical learning, classifiers, and correcting for multiple comparisons
+    - Comparing connectomes - graph theory, statistical learning, classifiers, and correcting for multiple comparisons [slides] (http://pucrs-human-connectome-class-2014.github.io/graph_theory_slides/index.html)
 - **Lab**: 
     - [Lab #6: Calculating graph statistics](labs.html#lab6)
 - **Reading**:
